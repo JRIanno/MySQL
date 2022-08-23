@@ -1,0 +1,10 @@
+SELECT * FROM dojos_ninjas.ninjas;
+INSERT INTO ninjas (first_name, last_name, dojo_id) VALUES ('Michael', 'Scott', 22);
+INSERT INTO ninjas (first_name, last_name, dojo_id) VALUES ('Dwight', 'Schrute', 22);
+INSERT INTO ninjas (first_name, last_name, dojo_id) VALUES ('Andy', 'Bernard', 22);
+INSERT INTO ninjas (first_name, last_name, dojo_id) VALUES ('Erin', 'Hannon', 23);
+INSERT INTO ninjas (first_name, last_name, dojo_id) VALUES ('Jo', 'Bennett', 23);
+INSERT INTO ninjas (first_name, last_name, dojo_id) VALUES ('Jan', 'Levinson', 23);
+INSERT INTO ninjas (first_name, last_name, dojo_id) VALUES ('Charles', 'Miner', 24);
+INSERT INTO ninjas (first_name, last_name, dojo_id) VALUES ('Deangelo', 'Vickers', 24);
+INSERT INTO ninjas (first_name, last_name, dojo_id) VALUES ('Ryan', 'Howard', 24);

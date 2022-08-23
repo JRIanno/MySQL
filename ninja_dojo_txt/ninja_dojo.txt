@@ -1,0 +1,16 @@
+SELECT * FROM dojos_ninjas.dojos;
+INSERT INTO dojos (name) VALUES ('Alpha');
+INSERT INTO dojos (name) VALUES ('Bravo');
+INSERT INTO dojos (name) VALUES ('Charlie');
+
+DELETE FROM dojos
+WHERE id < 4;
+
+INSERT INTO dojos (name) VALUES ('Delta');
+INSERT INTO dojos (name) VALUES ('Echo');
+INSERT INTO dojos (name) VALUES ('Foxtrot');
+
+SELECT dojos.id, dojos.name, ninjas.first_name, ninjas.last_name
+FROM dojos, ninjas
+WHERE dojos.id=dojo_id
+ORDER BY dojos.id;
